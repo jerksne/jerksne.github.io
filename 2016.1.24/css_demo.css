@@ -1,0 +1,83 @@
+div.pic > img {
+  border-radius: 50%;
+  border-style: dashed;
+  border-color: #DB7093;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+div.title {
+  font-weight: 600;
+  font-size: 1.5em;
+  margin: 10px 0;
+  color: #000000;
+  
+}
+
+div.subtitle{
+  font-weight: 400;
+  color: #191970;
+}
+
+div.description {
+  font-weight: 200;
+  font-size: 0.95em;
+  color: #2F4F4F;
+}
+
+ul.links {
+   padding: 0;
+}
+
+ul.links > a > li {
+  display: inline-block;
+  transform: skew(-15deg);
+  box-sizing: border-box;
+  min-width: 7em;
+  margin:5px;
+  padding: 5px 10px;
+  border-radius: 3px;
+  background-color: rgb(177, 196, 215);
+  transition: background-color 300ms;
+}
+
+ul.links > a > li {
+  text-decoration: none;
+  color: #696969;
+}
+
+ul.links > a > li:hover {
+  background-color: rgb(55, 96, 138);
+}
+
+ol li {
+  list-style-type: upper-roman;
+}
+
+ul li {
+  color: #696969;
+}
+
+ul {
+  list-style-image: url('img/star.png');
+}
+
+div.card {
+  background-color: #87CEEB;
+  text-align: center;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 5.5px 5.5px 10px #d1b361;
+  max-width: 425px;
+  margin: 0 auto;
+}
+
+div.info {
+  background-color: #FFC0CB;
+  text-align: center;
+  padding: 15px;
+  border-radius: 50px;
+  box-shadow: 5.5px 5.5px 10px #403050;
+  max-width: 425px;
+  margin: 0 auto;
+}
